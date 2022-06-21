@@ -1,0 +1,71 @@
+ /*Заголовки */
+
+.header{
+    font-size: 40px;
+    font-style: strong;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+}   
+ /* Изображения */
+.img{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ /* Параграфы */
+.paragraphs{
+    font-size: 18px;
+}
+
+
+/* Ссылки */
+.links{
+    font-size: 15px;
+}
+
+.links :link {
+    color: rgb(1, 1, 10);
+    text-decoration: none;
+  }
+  
+  .links :visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  .links :hover {
+    color: rgba(178, 21, 192, 0.74);
+    text-decoration: underline;
+  }
+  
+  .links :active {
+    color: rgb(255, 0, 191);
+  }
+
+  .links-bottom :link {
+    color: rgb(1, 1, 10);
+    text-decoration: none;
+  }
+  
+  .links-bottom :visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  .links-bottom :hover {
+    color: rgba(178, 21, 192, 0.74);
+    text-decoration: underline;
+  }
+  
+  .links-bottom :active {
+    color: rgb(255, 0, 191);
+  }
+  
