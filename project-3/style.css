@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}  
+
+.header-container{
+    display: flex;
+    color:#f0e4cb;
+    background-color:#755540;
+    height: 200px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 8px black;
+    font-size: 50px;
+    justify-content: left;
+   
+    
+}
+
+.name{
+    margin-left: 80px;
+    
+}
+ 
+.photo-container{
+
+    height: 600px;
+   
+        
+    display: flex;
+    background-image: url(images/cactus.png);
+    background-size: contain;
+    background-color: #f8c1e1 ;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.links-container{
+    display: flex;
+    color:#f0e4cb;
+    background-color:#755540;
+    height: 100px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 8px black;
+    font-size: 25px;
+    justify-content: left;
+}
+.links{
+    margin-left: 80px;
+}
+
+
+.links :link {
+    color: #f0e4cb ;
+    text-decoration: none;
+  }
+  
+  .links :visited {
+    color: #f0e4cb;
+  }
+  
+  .links :hover {
+    color: #f8c1e1;
+    text-decoration: none;
+  }
+  
+  .links :active {
+    color: #f0e4cb;
+    
+  }
+
+  .bio-container{
+    display:flex ;
+    background-color: #f8c1e1;
+    color: #755540;
+    font-style: italic;
+    text-shadow: 4px 4px 8px #f0e4cb ;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+  }
+
+  .bio{
+    
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
+
+
+  .footer-container{
+    display: flex;
+    color:#f0e4cb;
+    background-color:#755540;
+    height: 200px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 8px black;
+    font-size: 50px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    
+   }
+.logo{
+    margin-left: 80px;
+}
+.footer{
+    margin-right: 80px;
+}
