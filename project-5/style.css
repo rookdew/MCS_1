@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    
+}
+
+
+.header-container{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+    background-color: white ;
+    color: #E50043;
+    font-family: 'Arial';
+    font-size: 50px;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.link{
+   margin-left: 20px;
+}
+
+.hero-container{    
+    display: flex;
+    background-image: url(images/evian_origins_logo.png);
+    height: 1000px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    color: #E50043;
+    font-family: 'Arial';
+    font-size: 100px;
+    
+}
+
+.block-with-border{
+    font-family: 'Arial';
+    display: flex;
+    align-items: center;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    margin:150px;
+    font-size: 25px;
+    padding: 80px 30px;
+}
+
+
+.picture{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size:25px ;
+    text-align: center;
+}
+
+
+
+.footer{
+    display: flex;
+    background-color: #F8BFC7;
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    justify-content: flex-start;
+    font-family: 'Arial';
+}
+
