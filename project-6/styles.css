@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    background-color: blue;
+    color: white;
+    font: 25px 'Helvetica';
+    padding: 25px;
+}
+
+
+.page{
+    display: flex;
+    
+    font-family: 'Helvetica';
+    font-size: 50px;
+    line-height: 57px;
+    align-items: stretch;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px;
+    
+
+}
+
+.cards{
+    display: flex;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    background-color: blue;
+    color: white;
+    font: 25px 'Helvetica';
+    padding: 25px;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .page {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 25px;
+      line-height: 29px;
+    }
+    .cards{
+        
+        
+        width: 330px;
+        height: 165px;
+        
+    }
+  }
+  
